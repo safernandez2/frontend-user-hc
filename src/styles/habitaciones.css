@@ -1,0 +1,28 @@
+/* styles.css (o el nombre de tu archivo de estilos) */
+.habitaciones-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: radial-gradient(circle, #aef198, #0a4b01); /* Usamos radial-gradient */
+  min-height: 100vh;
+  padding: 19px; /* Añade algún relleno para evitar que el contenido toque los bordes */
+  backdrop-filter: blur(10px); /* Agrega el difuminado */
+}
+
+.habitacion-card {
+  width: 100%; /* Ajusta el ancho para ocupar toda la pantalla */
+  margin-bottom: 16px; /* Añade margen inferior para separar las tarjetas */
+}
+
+.habitacion-card img {
+  width: 100%; /* Ajusta el ancho de la imagen para ocupar toda la pantalla */
+  height: 200px; /* Ajusta la altura de manera fija */
+  object-fit: cover; /* Ajusta el comportamiento de la imagen para cubrir el contenedor */
+}
+
+/* Agrega media queries al final de tu archivo de estilos */
+@media (max-width: 767px) {
+  .habitaciones-container {
+    padding: 10px; /* Ajusta el relleno para dispositivos móviles */
+  }
+}
