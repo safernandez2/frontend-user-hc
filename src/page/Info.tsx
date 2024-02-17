@@ -32,7 +32,7 @@ const InfoComponent: React.FC = () => {
     setModalVisible(false);
   };
 
-  const menuDriveLink = 'https://www.facebook.com/?locale=es_LA';
+  const menuDriveLink = 'https://drive.google.com/file/d/1GGNz-UpEmOfQC6sKX38HcAZFOcOLE36a/view';
 
   return (
     <div>
@@ -109,7 +109,7 @@ const InfoComponent: React.FC = () => {
             color: '#333',
           }}
         >
-          Detalles
+          Habitaciones
         </h2>
         <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '20px' }}>
           {/* Primera imagen de detalles */}
@@ -223,7 +223,7 @@ const InfoComponent: React.FC = () => {
       {/* Pie de página */}
       <div style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '20px' }}>
         <p style={{ margin: '0', fontSize: '1.2em' }}>Hostería Capillapamba</p>
-        <p style={{ margin: '0', fontSize: '0.9em' }}>Copyright © 2023, Powered by Pedro Pulgarin y Steven Fernandez</p>
+        <p style={{ margin: '0', fontSize: '0.9em' }}>Copyright © 2024, Developed by Pedro Pulgarin & Steven Fernandez.</p>
       </div>
       {/* Agrega el ModalDetalleComponent */}
       <ModalDetalleComponent

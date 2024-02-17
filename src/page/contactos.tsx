@@ -26,7 +26,7 @@ const Contactos: React.FC = () => {
       {/* Pie de página */}
       <div className="footer" style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '20px' }}>
         <p style={{ margin: '0', fontSize: '1.2em' }}>Hostería Capillapamba</p>
-        <p style={{ margin: '0', fontSize: '0.9em' }}>Copyright © 2023, Powered by Pedro Pulgarin y Steven Fernandez</p>
+        <p style={{ margin: '0', fontSize: '0.9em' }}>Copyright © 2024, Developed by Pedro Pulgarin & Steven Fernandez.</p>
       </div>
     </div>
   );

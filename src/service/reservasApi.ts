@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 
-export const reservasApiUrl = 'http://localhost:3000/reservas';
+export const reservasApiUrl = 'https://backend-hosteriacap.onrender.com/reservas';
 
 export interface Reserva {
   reservaid: number;  

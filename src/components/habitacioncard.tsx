@@ -1,6 +1,6 @@
 // HabitacionCard.tsx
 import React, { useState } from 'react';
-import { Card, Button, Modal } from 'antd';
+import { Card, Button } from 'antd';
 import ModalAddReservation, { ModalAddReservationProps } from './ModalAddReservation';
 
 interface Habitacion {
@@ -24,10 +24,7 @@ const HabitacionCard: React.FC<HabitacionCardProps> = ({ habitacion, onReservarC
     setModalVisible(true);
   };
 
-  const handleReservaFormFinish = (values: any) => {
-    console.log('Formulario enviado con éxito', values);
-    setModalVisible(false);
-  };
+  
 
   const handleReservaFormCancel = () => {
     setModalVisible(false);
