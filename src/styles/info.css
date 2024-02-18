@@ -120,8 +120,8 @@
   }
   
   .start-button {
-    background-color: #006400;
-    border-color: #006400;
+    background-color: rgb(35 46 58);
+    border-color: rgb(35 46 58);
     font-family: 'Verdana';
     font-size: 1.1em;
     font-weight: bold;

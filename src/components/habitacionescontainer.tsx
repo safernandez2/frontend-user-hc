@@ -57,7 +57,6 @@ const HabitacionesContainer: React.FC = () => {
             <div>
               <p><strong>Descripción:</strong> {selectedRoom.descripcion}</p>
               <p><strong>Capacidad:</strong> {selectedRoom.capacidad} personas</p>
-              {/* Elimina la referencia a la disponibilidad */}
             </div>
           )}
         </Modal>

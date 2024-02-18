@@ -20,9 +20,27 @@
   object-fit: cover; /* Ajusta el comportamiento de la imagen para cubrir el contenedor */
 }
 
-/* Agrega media queries al final de tu archivo de estilos */
+/* styles.css (o el nombre de tu archivo de estilos) */
+
+/* Agrega media query solo para dispositivos móviles */
 @media (max-width: 767px) {
-  .habitaciones-container {
-    padding: 10px; /* Ajusta el relleno para dispositivos móviles */
+  .habitacion-card {
+    width: 100%; /* Ajusta el ancho para ocupar toda la pantalla en dispositivos móviles */
+    margin-bottom: 16px; /* Añade margen inferior para separar las tarjetas */
+  }
+
+  .habitacion-card img {
+    height: auto; /* Cambia la altura para que se ajuste proporcionalmente */
+  }
+
+  .habitacion-card > div {
+    flex-direction: column; /* Cambia la dirección del flexbox a columna para apilar los elementos */
+    align-items: center; /* Centra los elementos */
+    text-align: center; /* Centra el texto */
+    margin-left: 0; /* Quita el margen izquierdo */
+  }
+
+  .habitacion-card > div > div {
+    margin: 16px 0; /* Añade margen alrededor de la imagen y la información */
   }
 }
